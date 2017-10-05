@@ -23,6 +23,9 @@ function iLoveTheBeatles (number) {
   do {
     array.push("I love the Beatles!");
     i = i + 1;
+    if ( number > 15) {
+      i = i + number;
+    }
   } while ( i <= number );
   console.log(array);
   return array;
