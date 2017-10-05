@@ -1,7 +1,7 @@
-
+const array = [];
 
 function theBeatlesPlay (name, instruments) {
-  var array = [];
+//  var array = [];
   for (let i = 0; i < name.length ; i++  ) {
     array[i] =  name[i] + " plays " + instruments[i];
     console.log (array[i]);
@@ -10,7 +10,7 @@ function theBeatlesPlay (name, instruments) {
 }
 
 function johnLennonFacts(facts) {
-  const array = [];
+//  const array = [];
   for (let i = 0; i < facts.length ; i++  ) {
     array[i] =  facts[i] + "!!!";
     console.log (array[i]);
