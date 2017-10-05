@@ -10,6 +10,7 @@ function theBeatlesPlay (name, instruments) {
 }
 
 function johnLennonFacts(facts) {
+  var array = [];
   for (let i = 0; i < facts.length ; i++  ) {
     array[i] =  facts[i] + "!!!";
     console.log (array[i]);
