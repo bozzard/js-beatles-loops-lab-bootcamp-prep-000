@@ -1,4 +1,4 @@
-const array = [];
+var array = [];
 
 function theBeatlesPlay (name, instruments) {
 //  var array = [];
